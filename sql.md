@@ -1,5 +1,5 @@
 ```sql
-##how the data looks ike
+--how the data looks ike
 select * from dbo.Data1
 
 select * from dbo.Data2
