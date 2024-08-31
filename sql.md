@@ -1,4 +1,5 @@
 ```sql
+--Tips : 1. In having clause, we can not use aliases. 2. In Union, pay attention that we should use those two sub queries. it is better to not union there queries having Order By CLAUSE.
 --how the data looks ike
 select * from dbo.Data1
 
