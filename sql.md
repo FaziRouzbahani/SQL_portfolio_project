@@ -1,3 +1,4 @@
+'''sql
 --how the data looks ike
 select * from dbo.Data1
 
@@ -129,4 +130,4 @@ select w.* from
 (select d1.*,
 rank() over(partition by state order by literacy desc) as rank_literacy
 from dbo.Data1 as d1) as w
-where w.rank_literacy<4
+where w.rank_literacy<4 '''
